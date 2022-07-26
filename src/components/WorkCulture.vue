@@ -23,6 +23,20 @@
                 </div>
             </div>
         </div>
+        <div class="data">
+            <div class="number mx-4 px-4">
+                <div class="color-a"><strong>129+</strong></div>
+                <div class="color-b">ENROLED LEARNS</div>
+            </div>
+            <div class="number mx-4 px-4">
+                <div class="color-a"><strong>80</strong></div>
+                <div class="color-b">FINISHED SESSIONS</div>
+            </div>
+            <div class="number mx-4 px-4">
+                <div class="color-a"><strong>4%</strong></div>
+                <div class="color-b">SATISFACTION RATE</div>
+            </div>
+        </div>
 
     </div>
 </template>
@@ -98,10 +112,33 @@ export default {
         top: 50px;
         right: 50px;
     }
-    .img-around-right{
+
+    .img-around-right {
         position: absolute;
         bottom: 70px;
         right: 190px;
     }
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+
+    .number {
+        margin-left: 50px;
+
+        .color-a {
+            color: #1fad95;
+            font-size: 45px;
+            text-align: center;
+        }
+
+        .color-b {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #6c6c6b;
+        }
+    }
+
 }
 </style>
