@@ -18,6 +18,7 @@
                 <img src="../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="img">
                 <img class="range" src="../assets/img/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg"
                     alt="img2">
+                <img class="range-one" src="../assets/img/maxcoach-shape-07-100x100.png" alt="img3">
                 <div class="img-around-right">
                     <img src="../assets/img/maxcoach-shape-02.png" alt="style">
                 </div>
@@ -111,6 +112,13 @@ export default {
         position: absolute;
         top: 50px;
         right: 50px;
+    }
+    .range-one{
+        width: 16%;
+        position: absolute;
+        top: 13%;
+        right: 22%;
+        z-index: 1;
     }
 
     .img-around-right {
