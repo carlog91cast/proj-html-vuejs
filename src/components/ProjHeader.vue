@@ -4,8 +4,8 @@
             <div class="drop-list">
                 <!-- menu list -->
                 <ul class="d-flex mx-3">
-                    <li v-for="(item, index) in dropList" :key="index">
-                        <a class="text-dark" href="#">{{ item.text }}</a>
+                    <li v-for="(item, index) in dropList" :key="index" class="dropdown">
+                        <a class="text-dark dropdown-toggle" href="#">{{ item.text }}</a>
                     </li>
                 </ul>
             </div>
@@ -15,7 +15,7 @@
             </div>
             <!-- icons -->
             <div class="search-section d-flex align-items-center">
-                <div class="icons">
+                <div class="icons d-flex">
                     <i class="fa-solid fa-cart-shopping mx-3"></i>
                     <i class="fa-regular fa-circle-user mx-3"></i>
                 </div>
@@ -80,32 +80,45 @@ export default {
 @import "../assets/style/common.scss";
 
 ul {
+    margin-right: 40px;
+
     li {
-        margin-right: 30px;
+        margin-right: 40px;
+
+        a {
+            font-weight: 100;
+            font-size: 14px;
+        }
 
     }
 }
 
 .logo {
-    width: 13%;
+    img {
+        width: 150%;
+    }
 }
 
-.search {
-    display: flex;
-    background-color: #e2e2e0;
-    border-radius: 10px;
+.search-section {
+    margin-left: 100px;
 
-    .lens {
-        margin-right: 10px;
-    }
 
-    input {
-        background-color: #e2e2e0;
-        border: none;
-        outline: none;
-        resize: none;
-        padding: 13px;
-        color: black;
+    .search {
+
+        .lens {
+            margin-right: 10px;
+
+        }
+
+        input {
+            background-color: #e2e2e0;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+            resize: none;
+            padding: 10px;
+            color: black;
+        }
     }
 }
 </style>
