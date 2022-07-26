@@ -1,5 +1,7 @@
 <template>
- 
+  <div>
+    
+  </div>
 </template>
 
 <script>
@@ -11,6 +13,7 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+@import "~bootstrap/scss/bootstrap";
+@import "../assets/style/common.scss";
 </style>

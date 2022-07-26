@@ -8,8 +8,8 @@
 
 <script>
 import ProjHeader from './components/ProjHeader.vue'
-import ProjMain from './components/ProjHeader.vue'
-import ProjFooter from './components/ProjHeader.vue'
+import ProjMain from './components/ProjMain.vue'
+import ProjFooter from './components/ProjFooter.vue'
 
 export default {
   name: 'App',
@@ -21,6 +21,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "~bootstrap/scss/bootstrap";
+@import "./assets/style/common.scss";
 
 </style>
