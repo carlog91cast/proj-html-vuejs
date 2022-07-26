@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <ProjHeader/>
+    <ProjJumbo/>
     <ProjMain/>
     <ProjFooter/>
   </div>
@@ -8,6 +9,7 @@
 
 <script>
 import ProjHeader from './components/ProjHeader.vue'
+import ProjJumbo from './components/ProjJumbo.vue'
 import ProjMain from './components/ProjMain.vue'
 import ProjFooter from './components/ProjFooter.vue'
 
@@ -15,6 +17,7 @@ export default {
   name: 'App',
   components: {
     ProjHeader,
+    ProjJumbo,
     ProjMain,
     ProjFooter
   }
