@@ -16,7 +16,7 @@ export default {
   name: 'ProjMain',
   components: {
     WorkCulture,
-    KnowHow
+    KnowHow,
   }
  
 }
