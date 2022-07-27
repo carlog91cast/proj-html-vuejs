@@ -48,7 +48,7 @@
 
             </div>
         </div>
-        <div class="end-text">
+        <div class="end-text pb-5">
             Control your prefernce setting to get notified appropiate
             cousess <strong>View all coursess &RightArrow;</strong>
         </div>

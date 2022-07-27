@@ -1,12 +1,14 @@
 <template>
-  <main>
-    <div class="wave">
-        <WorkCulture/>
-        <KnowHow/>
-        <CoursesSlide/>
-        <Testimonials/>
-    </div>
-  </main>
+    <main>
+        <div class="wave">
+            <WorkCulture />
+            <KnowHow />
+            <CoursesSlide />
+        </div>
+        <div>
+            <Testimonials />
+        </div>
+    </main>
 </template>
 
 <script>
@@ -17,14 +19,14 @@ import Testimonials from './Testimonials.vue';
 
 
 export default {
-  name: 'ProjMain',
-  components: {
-    WorkCulture,
-    KnowHow,
-    CoursesSlide,
-    Testimonials,
-  }
- 
+    name: 'ProjMain',
+    components: {
+        WorkCulture,
+        KnowHow,
+        CoursesSlide,
+        Testimonials,
+    }
+
 }
 </script>
 
@@ -32,7 +34,7 @@ export default {
 @import "~bootstrap/scss/bootstrap";
 @import "../assets/style/common.scss";
 
-.wave{
+.wave {
     background-color: #FBFBFB
 }
 </style>

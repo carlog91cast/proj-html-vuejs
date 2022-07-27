@@ -18,17 +18,19 @@
                     </div>
                 </div>
                 <div class="main-text">
-                    <h3 class="ha">Professional team of specialists and passionate mentors at reach</h3>
-                    <p class="hp">Ineed to get a certification for English proficiency and MaxCoach is my best choince.
+                    <h3 class="text-a"> <strong>Professional team of specialists and passionate mentors at
+                            reach</strong> </h3>
+                    <p class="text-b">Ineed to get a certification for English proficiency and MaxCoach is my best
+                        choince.
                         Their tutors are smatrt and professional when dealing with students
                     </p>
-                    <div class="profile">
-                        <div class="image">
+                    <div class="d-flex">
+                        <div class="image-down">
                             <img src="../assets/img/testimonial-avata-01.jpg" alt="image">
 
                         </div>
                         <div class="name">
-                            <h3>Madley POndor</h3>
+                            <h3>Madley Pondor</h3>
                             <p>/IT specialists</p>
                         </div>
                     </div>
@@ -38,7 +40,7 @@
                         <img src="../assets/img/testimonial-avata-02.jpg" alt="inmg">
                     </div>
                     <div class="name-down">
-                        <h3>Mina Hollace</h3>
+                        <h3><strong>Mina Hollace</strong></h3>
                         <p>/Freelancer</p>
                     </div>
                 </div>
@@ -62,6 +64,7 @@ export default {
 @import "~bootstrap/scss/bootstrap";
 @import "../assets/style/common.scss";
 
+// text-side
 .text-section {
     padding: 130px;
     position: relative;
@@ -104,6 +107,85 @@ export default {
         a {
             color: #1fad95;
         }
+    }
+}
+
+// shadow-card slide
+
+// upper side
+.text-shadow-up {
+    padding: 15px;
+    opacity: 0.4;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+// central side
+.img-right {
+    position: relative;
+
+    .main-text {
+
+        align-items: center;
+        position: absolute;
+        top: 72%;
+        right: 64%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        padding: 5%;
+        background-color: #FFFFFF;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+        .text-a {
+            font-size: 15px;
+            color: #b5b5b5;
+        }
+
+        .text-b {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            color: #b5b5b5;
+        }
+    }
+}
+
+
+// lower size
+
+.text-shadow-down {
+    padding: 10px;
+    position: absolute;
+    bottom: -12%;
+    width: 80%;
+    display: flex;
+    opacity: 0.4;
+    background-color: #F8F8F8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: -1;
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 10px;
+        color: #747474;
+    }
+}
+
+.image-down {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 </style>
