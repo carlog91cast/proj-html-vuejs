@@ -118,13 +118,14 @@ export default {
         position: absolute;
         top: 13%;
         right: 22%;
-        z-index: 1;
+        z-index: -1;
     }
 
     .img-around-right {
         position: absolute;
         bottom: 70px;
         right: 190px;
+        z-index: -1;
     }
 }
 
