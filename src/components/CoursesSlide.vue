@@ -13,7 +13,7 @@
                 <div v-for="(card, index) in cardList" :key="index" class="col-3 cart mx-3 rounded">
                     <div class="image">
                         <img class="rounded-top" :src="require(`../assets/img/${card.img}`)" alt="">
-                        <div class="free">
+                        <div v-show="hidden" class="free rounded-end">
                             FREE
                         </div>
                     </div>
@@ -48,7 +48,7 @@
 
             </div>
         </div>
-        <div class="testo-finale">
+        <div class="end-text">
             Control your prefernce setting to get notified appropiate
             cousess <strong>View all coursess &RightArrow;</strong>
         </div>
@@ -74,6 +74,7 @@ export default {
                     description: 'Customer- centric-info-Tech Strategies',
                     class: '24 lessons',
                     students: '769 students',
+                   
                 },
                 {
                     img: 'stock-full-hd-04-480x298.jpg',
@@ -81,8 +82,9 @@ export default {
                     description: 'Open Programming Coursess for Everyone:Python',
                     class: '17 lessons',
                     students: '62 students',
+                   
                 },
-            ]
+            ],
         }
     }
 }
@@ -116,6 +118,20 @@ export default {
     position: relative;
     background-color: white;
     padding: 0;
+
+    .free {
+        width: 50px;
+        height: 25px;
+        background-color: #ee7455;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 }
 
 .cart:hover {
@@ -146,5 +162,31 @@ export default {
     span {
         margin-left: 20px;
     }
+}
+.container-select{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.select{
+	width: 10px;
+	height: 10px;
+	border: 1px solid black;
+	background-color: #000000;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+.select-grey{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #d8d8d8;
+	background-color: #d8d8d8;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+.end-text{
+	text-align: center;
+	margin: 20px;
 }
 </style>
