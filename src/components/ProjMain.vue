@@ -3,6 +3,7 @@
     <div class="wave">
         <WorkCulture/>
         <KnowHow/>
+        <CoursesSlide/>
     </div>
   </main>
 </template>
@@ -10,6 +11,7 @@
 <script>
 import WorkCulture from './WorkCulture.vue';
 import KnowHow from './KnowHow.vue';
+import CoursesSlide from './CoursesSlide.vue';
 
 
 export default {
@@ -17,6 +19,7 @@ export default {
   components: {
     WorkCulture,
     KnowHow,
+    CoursesSlide,
   }
  
 }
