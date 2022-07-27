@@ -107,7 +107,7 @@ ul {
 
         .lens {
             margin-right: 10px;
-
+           
         }
 
         input {
