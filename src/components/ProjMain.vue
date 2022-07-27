@@ -4,6 +4,7 @@
         <WorkCulture/>
         <KnowHow/>
         <CoursesSlide/>
+        <Testimonials/>
     </div>
   </main>
 </template>
@@ -12,6 +13,7 @@
 import WorkCulture from './WorkCulture.vue';
 import KnowHow from './KnowHow.vue';
 import CoursesSlide from './CoursesSlide.vue';
+import Testimonials from './Testimonials.vue';
 
 
 export default {
@@ -20,6 +22,7 @@ export default {
     WorkCulture,
     KnowHow,
     CoursesSlide,
+    Testimonials,
   }
  
 }
