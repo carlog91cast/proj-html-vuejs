@@ -9,23 +9,23 @@
         <!-- inserisco dinamicamente le card con un v for -->
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div v-for="(card, index) in cardList" :key="index"  class="col-4">
                     <div class="image">
-                        <img src="" alt="img">
+                        <img :src="require(`../assets/img/${card.img}`)" alt="">
                         <div class="free">
                             FREE
                         </div>
                     </div>
                     <div class="text">
                         <div class="price">
-
+                            {{card.price}}
                         </div>
                         <div class="description">
-
+                            {{card.description}}
                         </div>
-                        <div class="class">
-                            <span></span>
-                            <span></span>
+                        <div class="students">
+                            <span>{{card.class}}</span>
+                            <span>{{card.students}}</span>
                         </div>
                     </div>
                 </div>
