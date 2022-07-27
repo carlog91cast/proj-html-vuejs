@@ -12,7 +12,7 @@
                     deadline.we're opening new classes every <br>
                     beginning of each month
                 </p>
-                <div>Have questions? <a href=""><strong>Get Free Guide</strong></a></div>
+                <div>Have questions? <a href=""><strong>Get Free Guide &RightArrow;</strong></a></div>
             </div>
             <div class="col-6 img-right" style="padding-right: 130px;">
                 <img src="../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="img">

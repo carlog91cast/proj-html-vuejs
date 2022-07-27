@@ -20,7 +20,7 @@
                     every stage
                     of learning
                 </p>
-                <div><a href=""><strong>Download free guidebook</strong></a></div>
+                <div><a href=""><strong>Download free guidebook &RightArrow;</strong></a></div>
             </div>
         </div>
     </div>

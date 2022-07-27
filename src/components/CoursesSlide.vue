@@ -1,35 +1,56 @@
  <template>
     <div class="container">
         <div class="title">
-            <h1>
+            <h6>JOIN MAXCOACH AT BEST</h6>
+            <h1 class="m-5">
                 Latest Online
                 <span>Courses</span>
             </h1>
         </div>
         <!-- inserisco dinamicamente le card con un v for -->
-        <div class="container">
-            <div class="row">
-                <div v-for="(card, index) in cardList" :key="index"  class="col-4">
+        <div class="container mt-3">
+            <div class="row justify-content-center">
+                <div v-for="(card, index) in cardList" :key="index" class="col-3 cart mx-3 rounded">
                     <div class="image">
-                        <img :src="require(`../assets/img/${card.img}`)" alt="">
+                        <img class="rounded-top" :src="require(`../assets/img/${card.img}`)" alt="">
                         <div class="free">
                             FREE
                         </div>
                     </div>
                     <div class="text">
                         <div class="price">
-                            {{card.price}}
+                            {{ card.price }}
                         </div>
                         <div class="description">
-                            {{card.description}}
+                            {{ card.description }}
                         </div>
-                        <div class="students">
-                            <span>{{card.class}}</span>
-                            <span>{{card.students}}</span>
+                        <div class="students mt-4">
+                            <span>{{ card.class }}</span>
+                            <span>{{ card.students }}</span>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container-select">
+            <div class="select">
+            </div>
+            <div class="select-grey">
+
+            </div>
+            <div class="select-grey">
+
+            </div>
+            <div class="select-grey">
+
+            </div>
+            <div class="select-grey">
+
+            </div>
+        </div>
+        <div class="testo-finale">
+            Control your prefernce setting to get notified appropiate
+            cousess <strong>View all coursess &RightArrow;</strong>
         </div>
     </div>
 </template>
@@ -75,13 +96,55 @@ export default {
 
     text-align: center;
 
+    H6 {
+        color: #6c6c6b;
+        ;
+    }
+
     h1 {
         font-weight: 600;
         font-size: 45px;
+
     }
 
     span {
         color: #1fad95;
+    }
+}
+
+.cart {
+    position: relative;
+    background-color: white;
+    padding: 0;
+}
+
+.cart:hover {
+    background-color: #e2e2e0;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1fad95;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.price:hover {
+    color: black;
+}
+
+.description {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.students {
+    color: #6c6c6b;
+
+    span {
+        margin-left: 20px;
     }
 }
 </style>

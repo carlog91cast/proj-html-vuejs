@@ -28,4 +28,8 @@ export default {
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap";
 @import "../assets/style/common.scss";
+
+.wave{
+    background-color: #FBFBFB
+}
 </style>

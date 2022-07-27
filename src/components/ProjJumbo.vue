@@ -10,7 +10,7 @@
 
         </div>
         <div class="button">
-            <a href="#">Download free guidebook </a>
+            <a href="#">Download free guidebook &RightArrow; </a>
         </div>
     </div>
 </template>
