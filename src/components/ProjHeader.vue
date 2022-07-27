@@ -111,7 +111,7 @@ ul {
         }
 
         input {
-            background-color: #e2e2e0;
+            background-color: #F5F5F5;
             border: none;
             border-radius: 10px;
             outline: none;
