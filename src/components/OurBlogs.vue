@@ -13,20 +13,17 @@
                 <div v-for="(artist, index) in artistList" :key="index" class="col-3 cart mx-3 rounded">
                     <div class="image">
                         <img class="rounded-top" :src="require(`../assets/img/${artist.img}`)" alt="">
-                        <div v-show="hidden" class="free rounded-end">
-                            FREE
-                        </div>
                     </div>
                     <div class="text">
                         <div class="price">
-                            {{ artist.price }}
+                            {{ artist.title }}
                         </div>
                         <div class="description">
                             {{ artist.description }}
                         </div>
                         <div class="students mt-4">
-                            <span>{{ artist.class }}</span>
-                            <span>{{ artist.students }}</span>
+                            <span>{{ artist.date }}</span>
+                            <span>{{ artist.views }}</span>
                         </div>
                     </div>
                 </div>
@@ -42,14 +39,14 @@ export default {
         return {
             artistList: [
                 {
-                    img: 'course-02-480x298.jpg',
+                    img: 'artist-blog-03-480x325.jpeg"',
                     title: 'artist',
                     description: 'Brush strokes energize trees in paintings',
                     date: 'May 15, 2020',
                     views: '688 views',
                 },
                 {
-                    img: 'stock-full-hd-03-480x298.jpg',
+                    img: 'artist-blog-01-480x325.jpg',
                     title: 'artist',
                     description: 'Pocket-Sized notebooks hold miniature paintings',
                     date: 'May 15, 2020',
@@ -57,7 +54,7 @@ export default {
                    
                 },
                 {
-                    img: 'stock-full-hd-04-480x298.jpg',
+                    img: 'artist-blog-02-480x325.jpg',
                     title: 'artist',
                     description: 'connection Between Self-Portaits and identity',
                     date: 'May 15, 2020',
