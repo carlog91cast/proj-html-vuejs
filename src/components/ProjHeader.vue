@@ -16,13 +16,13 @@
             <!-- icons -->
             <div class="search-section d-flex align-items-center">
                 <div class="icons d-flex">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <i class="fa-regular fa-user"></i>
+                    <img src="../assets/img/utent.svg" alt="">
+                    <img src="../assets/img/Carrello.svg" alt="">
                 </div>
                 <div class="search d-flex align-items-center">
                     <input type="text" placeholder="search...">
                     <div class="lens">
-                        <i class="fa-regular fa-magnifying-glass"></i>
+                        <img src="../assets/img/search.svg" alt="">
                     </div>
                 </div>
             </div>
