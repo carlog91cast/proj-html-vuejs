@@ -10,7 +10,7 @@
         <!-- inserisco dinamicamente le card con un v for -->
         <div class="container mt-3">
             <div class="row justify-content-center">
-                <div v-for="(artist, index) in artistList" :key="index" class="col-3 cart mx-3 rounded">
+                <div v-for="(artist, index) in artistList" :key="index" class="col-3 cart mx-2 rounded">
                     <div class="image">
                         <img class="rounded-top" :src="require(`../assets/img/${artist.img}`)" alt="">
                     </div>
@@ -39,7 +39,7 @@ export default {
         return {
             artistList: [
                 {
-                    img: 'artist-blog-03-480x325.jpeg"',
+                    img: 'artist-blog-03-480x325.jpeg',
                     title: 'artist',
                     description: 'Brush strokes energize trees in paintings',
                     date: 'May 15, 2020',
@@ -95,20 +95,8 @@ export default {
     position: relative;
     background-color: white;
     padding: 0;
+    width: 30%;
 
-    .free {
-        width: 50px;
-        height: 25px;
-        background-color: #ee7455;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
 }
 
 .cart:hover {

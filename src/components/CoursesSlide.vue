@@ -118,6 +118,7 @@ export default {
     position: relative;
     background-color: white;
     padding: 0;
+    width: 30%;
 
     .free {
         width: 50px;
