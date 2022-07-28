@@ -20,7 +20,7 @@
                     develop and grow at your best
                 </p>
                 <div class="button">
-                    <button></button>
+                    <a href="#">Get Free Guide</a>
                 </div>
             </div>
         </div>
@@ -77,12 +77,23 @@ export default {
         color: #6c6c6b;
     }
 
-    div {
-        color: #6c6c6b;
+    .button a {
+        background-color: #1fad95;
+        color: white;
+        width: max-content;
+        border-radius: 5px;
+        padding: 20px 30px;
+        font-weight: 700;
+    }
 
-        a {
-            color: #1fad95;
-        }
+    .button {
+        margin-top: 40px;
+    }
+
+    .button a:hover {
+        background-color:#b1b1b0;
+        color: #1fad95;
+        border: 1px solid #1fad95;
     }
 }
 
