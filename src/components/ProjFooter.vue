@@ -3,7 +3,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-2">
-                    
+                    <div class="address">
+                        <ul>
+                            <li>382 NE 191ist St# 97394 Miami, Fl 33179-3899</li>
+                            <li>+1(382) 33179-3899</li>
+                            <li>support@maxcoach.com</li>
+                        </ul>
+                    </div>
+                    <div class="social">
+                        <ul>
+                            <li><img src="../assets/img/instagram-2-512.png" alt="img"></li>
+                            <li><img src="../assets/img//facebook-3-512.png" alt="img"></li>
+                            <li><img src="../assets/img/twitter-4-512.png" alt="img"></li>
+
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-10"></div>
             </div>
