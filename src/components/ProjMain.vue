@@ -7,6 +7,10 @@
         </div>
         <div>
             <Testimonials />
+            <TransformCard/>
+        </div>
+        <div class="grey">
+            <OurBlogs/>
         </div>
     </main>
 </template>
@@ -16,16 +20,20 @@ import WorkCulture from './WorkCulture.vue';
 import KnowHow from './KnowHow.vue';
 import CoursesSlide from './CoursesSlide.vue';
 import Testimonials from './Testimonials.vue';
+import TransformCard from './TransformCard.vue';
+import OurBlogs from './OurBlogs.vue';
 
 
 export default {
     name: 'ProjMain',
     components: {
-        WorkCulture,
-        KnowHow,
-        CoursesSlide,
-        Testimonials,
-    }
+    WorkCulture,
+    KnowHow,
+    CoursesSlide,
+    Testimonials,
+    TransformCard,
+    OurBlogs,
+}
 
 }
 </script>
@@ -34,7 +42,8 @@ export default {
 @import "~bootstrap/scss/bootstrap";
 @import "../assets/style/common.scss";
 
-.wave {
+.wave .grey {
     background-color: #FBFBFB
 }
+
 </style>
