@@ -12,7 +12,7 @@
         <div class="grey">
             <OurBlogs />
         </div>
-        <div class="container mt-5">
+        <div class="container mail-container">
             <div class="row">
                 <div class="col-4 position-relative">
                     <img class="w-50 position-absolute square-sx" src="../assets/img/maxcoach-shape-07.png" alt="">
@@ -73,14 +73,17 @@ export default {
 @import "../assets/style/common.scss";
 
 .wave .grey {
-    background-color: #FBFBFB
+    background-color: #FBFBFB;
 }
 .grey {
-     background-color: #FBFBFB 
+     background-color: #FBFBFB;
+     padding-top: 30px;
+     padding-bottom: 50px;
 }
 
 .mail {
     padding-top: 100px;
+    padding-bottom: 70px;
     text-align: center;
 
     .text {
@@ -131,7 +134,7 @@ export default {
     }
 }
 .square-sx{
-    top: 10%;
+    top: 20%;
 }
 
 .square-point {
