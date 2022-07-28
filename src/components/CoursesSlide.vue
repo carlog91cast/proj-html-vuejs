@@ -13,7 +13,7 @@
                 <div v-for="(card, index) in cardList" :key="index" class="col-3 cart mx-3 rounded">
                     <div class="image">
                         <img class="rounded-top" :src="require(`../assets/img/${card.img}`)" alt="">
-                        <div v-show="hidden" class="free rounded-end">
+                        <div v-if="card.hidden" class="free rounded-end">
                             FREE
                         </div>
                     </div>
@@ -67,6 +67,7 @@ export default {
                     description: 'Learning to Write as a Professional Author',
                     class: '20 lessons',
                     students: '50 students',
+                    hidden: false,
                 },
                 {
                     img: 'stock-full-hd-03-480x298.jpg',
@@ -74,6 +75,7 @@ export default {
                     description: 'Customer- centric-info-Tech Strategies',
                     class: '24 lessons',
                     students: '769 students',
+                    hidden: true,
                    
                 },
                 {
@@ -82,6 +84,7 @@ export default {
                     description: 'Open Programming Coursess for Everyone:Python',
                     class: '17 lessons',
                     students: '62 students',
+                    hidden: false,
                    
                 },
             ],

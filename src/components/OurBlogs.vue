@@ -1,6 +1,6 @@
  <template>
     <div class="container">
-        <div class="title">
+        <div class="title mt-3">
             <h6>READ FOR MORE JOYMENT</h6>
             <h1 class="m-5">
                 Latest From
@@ -14,7 +14,7 @@
                     <div class="image">
                         <img class="rounded-top" :src="require(`../assets/img/${artist.img}`)" alt="">
                     </div>
-                    <div class="text">
+                    <div class="text p-1">
                         <div class="price">
                             {{ artist.title }}
                         </div>

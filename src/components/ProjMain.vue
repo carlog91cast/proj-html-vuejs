@@ -75,6 +75,9 @@ export default {
 .wave .grey {
     background-color: #FBFBFB
 }
+.grey {
+     background-color: #FBFBFB 
+}
 
 .mail {
     padding-top: 100px;
@@ -123,10 +126,8 @@ export default {
         color: white;
         background-color: #1fad95;
         width: max-content;
-        border: 1px solid #1fad95;
         border-radius: 10px;
-        padding: 15px;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 .square-sx{

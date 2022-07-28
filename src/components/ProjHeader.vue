@@ -16,8 +16,8 @@
             <!-- icons -->
             <div class="search-section d-flex align-items-center">
                 <div class="icons d-flex">
-                    <i class="fa-solid fa-cart-shopping mx-3"></i>
-                    <i class="fa-regular fa-circle-user mx-3"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-user"></i>
                 </div>
                 <div class="search d-flex align-items-center">
                     <input type="text" placeholder="search...">
