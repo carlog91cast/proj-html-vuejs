@@ -111,11 +111,16 @@ ul {
 
 
     .search {
+        position: relative;
 
         .lens {
-            margin-right: 10px;
+            position: absolute;
+            margin-right: -10px;
+            left: 85%;
+            bottom: 30%;
             img{
-                width: 100%;
+                width: 35%;
+                
                 
             }
            
