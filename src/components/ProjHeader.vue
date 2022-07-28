@@ -101,12 +101,23 @@ ul {
 
 .search-section {
     margin-left: 100px;
+    .icons{
+        img{
+           width: 25%; 
+           margin-right: 20px;
+        }
+        
+    }
 
 
     .search {
 
         .lens {
             margin-right: 10px;
+            img{
+                width: 100%;
+                
+            }
            
         }
 
@@ -121,4 +132,5 @@ ul {
         }
     }
 }
+
 </style>
